@@ -1,0 +1,9 @@
+printWidth: 240
+tabWidth: 4
+useTabs: true
+semi: true
+singleQuote: true
+quoteProps: 'as-needed' # Yeah I fucking use quotes in yaml files, got a problem?
+trailingComma: 'all'
+bracketSpacing: true
+arrowParens: 'always'

@@ -1,0 +1,18 @@
+{
+	"name": "@sach/typescript",
+	"version": "1.0.0",
+	"main": "build/index.js",
+	"author": "sach1",
+	"license": "GPL-3.0-only",
+	"private": false,
+	"scripts": {
+		"start": "node .",
+		"prestart": "yarn && tsc",
+		"clean": "rm -rf build node_modules coverage && echo -e '\\033[32mCleaned.'",
+		"format": "prettier --config .prettierrc.yaml --ext ts .",
+		"format:fix": "yarn run --silent format -w --loglevel silent && echo -e '\\033[32mFormatted.'"
+	},
+	"devDependencies": {
+		"prettier": "^2.2.1"
+	}
+}

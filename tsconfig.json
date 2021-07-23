@@ -1,0 +1,21 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"module": "CommonJS",
+		"target": "ESNext",
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"alwaysStrict": true,
+		"strict": true,
+		"outDir": "build",
+		"resolveJsonModule": true,
+		"sourceMap": false,
+		"inlineSourceMap": true,
+		"incremental": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}
